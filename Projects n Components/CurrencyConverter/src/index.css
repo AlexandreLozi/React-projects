@@ -1,0 +1,49 @@
+header {
+  display: flex;
+  align-items: center;
+  vertical-align: middle;
+  justify-content: center;
+}
+.header {
+  display: flex;
+  align-items: center;
+  vertical-align: middle;
+  font-family: sans-serif, Arial;
+  font-size: 36px;
+  font-weight: 600;
+}
+.body {
+  justify-content: center;
+  display: flex;
+  vertical-align: middle;
+  align-items: center;
+}
+
+.inputAmount {
+  height: 24px;
+  text-align: right;
+  padding: 2px 5px;
+  margin: 10px 10px;
+}
+.selectCurr {
+  border-radius: 5px;
+  background-color: rgb(255, 255, 255);
+  border-width: 1px;
+  margin: 10px 10px;
+  height: 30px;
+  text-align: justify;
+  align-items: center;
+  align-content: center;
+}
+.arrow {
+  font-size: 24px;
+}
+.result {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  vertical-align: middle;
+  font-family: sans-serif, arial;
+  font-size: 24px;
+  font-weight: 600;
+}
