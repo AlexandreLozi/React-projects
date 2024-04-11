@@ -1,0 +1,72 @@
+header {
+  display: flex;
+  align-items: center;
+  vertical-align: middle;
+  justify-content: center;
+  background-color: rgb(110, 163, 146);
+  margin: 0px;
+}
+.header {
+  display: flex;
+  align-items: center;
+  vertical-align: middle;
+  font-family: Stripes-Caps, sans-serif, Arial;
+  font-size: 48px;
+  font-weight: 600;
+  color: black;
+}
+.body {
+  justify-content: center;
+  display: flex;
+  vertical-align: middle;
+  align-items: center;
+}
+
+.inputAmount {
+  height: 24px;
+  text-align: right;
+  padding: 2px 5px;
+  margin: 10px 10px;
+}
+.selectCurr {
+  border-radius: 5px;
+  background-color: rgb(255, 255, 255);
+  border-width: 1px;
+  margin: 10px 10px;
+  height: 30px;
+  text-align: justify;
+  align-items: center;
+  align-content: center;
+}
+.arrow {
+  font-size: 24px;
+}
+.result {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  vertical-align: middle;
+  font-family: sans-serif, arial;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+/* @font-face {
+  font-family: "Stripes-Caps";
+  src: url(publi//home/alexandreyuki/react/currency-calc/public
+  /home/alexandreyuki/react/currency-calc/public/Stripescaps-AEm7.ttf)
+      format("ttf"),
+    url(react/currency-calc/public
+react/currency-calc/public/Stripescaps-AEm7.ttf)
+      format("ttf");
+  font-weight: normal;
+  font-style: normal; */
+
+@font-face {
+  font-family: "Stripes-Caps";
+  src: url("/home/alexandreyuki/react/currency-calc/public/Stripescaps-AEm7.ttf")
+    format("truetype");
+  /* Make sure the URL is correct and complete */
+  font-weight: normal;
+  font-style: normal;
+}
